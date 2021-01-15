@@ -29,7 +29,7 @@
 
 Все задачи, которые вам нужно будет сделать, оформляются как issues на Github. Вы можете посмотреть их на вкладке Issues своего репозитория, но большую часть времени вы будете работать через Project Board (вкладка Projects), где задачи представлены в более удобном и наглядном виде (об этом ниже).
 
-![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Issues__thinknetica_test_student_repo.png](https://user-images.githubusercontent.com/968537/104715110-2295ea00-5737-11eb-9b61-34832b969f03.png)
+![Issues__thinknetica_test_student_repo.png](https://user-images.githubusercontent.com/968537/104715110-2295ea00-5737-11eb-9b61-34832b969f03.png)
 
 Все задачи в рамках проекта объединены в тематические модули, которые на гитхабе представлены в виде milestones.
 
@@ -45,7 +45,7 @@
 
 Задачи удобнее смотреть не через вкладку Issues, а через вкладку Projects, там уже есть подготовленный проект. Здесь же вы увидите список задач и этапы работы над ними:
 
-![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01.png)
+![Django_Lab_01.png](https://user-images.githubusercontent.com/968537/104715642-dac39280-5737-11eb-8e9f-7b262c90afb0.png)
 
 В проекте есть несколько колонок:
 
@@ -75,7 +75,7 @@ git clone git@github.com:thinknetica/test_student_repo.git
 
 1. Вы берете задачу в работу из колонки ToDo и перетаскиваете ее в колонку In Progress, что означает, что вы взяли ее в работу.  **Важно!**  **Выполняйте задачи последовательно, в соответствии с  номером лейбла** (например, 1.1, 1.2 и т.д.). 
 
-    ![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%201.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%201.png)
+    ![Django_Lab_01%201.png](https://user-images.githubusercontent.com/968537/104715736-f9c22480-5737-11eb-8f34-87064afddc92.png)
 
 2. Локально, в директории с проектом, создайте ветку для работы над задачей. **Для каждой задачи - отдельная ветка!** Это делается командой `git checkout -b <branch name>` Например:
 
@@ -103,7 +103,7 @@ git clone git@github.com:thinknetica/test_student_repo.git
     3. Выбираете ветки для создания PR. В `base` у вас всегда `main`, в `compare`выбираете ветку с кодом задачи
     4. Нажимаете Create Pull Request
 
-        ![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Comparing_main___1_1_basic_template__thinknetica_test_student_repo.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Comparing_main___1_1_basic_template__thinknetica_test_student_repo.png)
+        ![Comparing_main___1_1_basic_template__thinknetica_test_student_repo.png](https://user-images.githubusercontent.com/968537/104715849-21b18800-5738-11eb-95b7-741e29117ddd.png)
 
 6. Теперь нужно правильно оформить PR, чтобы он связался с задачей и проектом, а также назначить проверяющего (Reviewer). Для этого нужно при создании PR указать:
 
@@ -112,11 +112,11 @@ git clone git@github.com:thinknetica/test_student_repo.git
 3. В том же меню в разделе Project выбрать проект (в списке только один проект, так что выбрать нужно его).
 4. После всего этого нажать на кнопку Create Pull Request
 
-![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Comparing_main___second_branch__thinknetica_test_student_repo.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Comparing_main___second_branch__thinknetica_test_student_repo.png)
+![Comparing_main___second_branch__thinknetica_test_student_repo.png](https://user-images.githubusercontent.com/968537/104715983-486fbe80-5738-11eb-8905-eba5640a487c.png)
 
 7. Если вы все сделали правильно, то задача попадет на проверку наставнику, а внутри проекта на гитхабе, этот PR будет также отображаться в колонке "Review in progress" с меткой "on review" (**метка** **добавляется автоматически, но это может занять до пары минут**), что означает, что PR ожидает проверки наставником. При этом, вы должны увидеть, что сама задача(issue) связана с этим PR, о чем будет гласить подпись под карточкой задачи:
 
-![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%202.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%202.png)
+![Django_Lab_01%202.png](https://user-images.githubusercontent.com/968537/104716116-7fde6b00-5738-11eb-8523-9639a2a02c22.png)
 
 **По наличию/отсутствию метки "on review" можно понимать, ожидает PR проверки или уже проверен**
 
@@ -126,7 +126,7 @@ git clone git@github.com:thinknetica/test_student_repo.git
 
 Если наставник отклонил ваш PR, то вы увидите карточку с PR в колонке Review in progress с пометкой "Сhanges requestes", при этом исчезнет метка "on review", что означает, что наставник завершил проверку. Также вам придет уведомление на почту и на гитхабе о том, что запрошены изменения.
 
-![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%203.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%203.png)
+![Django_Lab_01%203.png](https://user-images.githubusercontent.com/968537/104716172-997fb280-5738-11eb-9723-2f57bd08226a.png)
 
 В этом случае вам нужно зайти в PR и прочитать комментарии наставника, вы также можете задать вопросы в комментариях к PR.
 
@@ -139,13 +139,13 @@ git clone git@github.com:thinknetica/test_student_repo.git
 3. Сделать пуш изменений на Github командой `git push`
 4. Зайти в тот же самый PR (**Важно! Новый PR создавать НЕ нужно, существующий PR "подхватит" все изменения**), что был отклонен и повторно запросить проверку  у наставника, нажав на кнопку c двумя стрелками справа от его имени:
 
-    ![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/___by_vkurennov__Pull_Request__7__thinknetica_test_student_repo.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/___by_vkurennov__Pull_Request__7__thinknetica_test_student_repo.png)
+    ![Pull_Request__7__thinknetica_test_student_repo.png](https://user-images.githubusercontent.com/968537/104716242-b5835400-5738-11eb-9e5b-cdd8c0515191.png)
 
 После этих действий, PR вновь попадет на проверку наставнику, при этом в проекте PR останется также в колонке Review in Progress, но у него вновь добавится метка "on review".
 
 **Если наставник принял ваш PR**, то он окажется в колонке Reviewer approved (сама задача будет по-прежнему в колонке In Progress) и у него появится подпись "Changes approved":
 
-![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%204.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%204.png)
+![Django_Lab_01%204.png](https://user-images.githubusercontent.com/968537/104716284-cc29ab00-5738-11eb-9ced-069175cbf9f2.png)
 
 **После этого, вам нужно слить эту ветку в основную ветку**. Это можно сделать двумя способами:
 
@@ -154,6 +154,6 @@ git clone git@github.com:thinknetica/test_student_repo.git
 
 После того, как PR (ветка) будут слиты, PR и связанная с ним задача (issue) автоматически закроются и попадут в колонку Done:
 
-![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%205.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Django_Lab_01%205.png)
+![Django_Lab_01%205.png](https://user-images.githubusercontent.com/968537/104716334-de0b4e00-5738-11eb-8980-160b7554ddbf.png)
 
 Теперь можно приступать к следующей задаче и повторить весь процесс.
