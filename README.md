@@ -29,7 +29,7 @@
 
 Все задачи, которые вам нужно будет сделать, оформляются как issues на Github. Вы можете посмотреть их на вкладке Issues своего репозитория, но большую часть времени вы будете работать через Project Board (вкладка Projects), где задачи представлены в более удобном и наглядном виде (об этом ниже).
 
-![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Issues__thinknetica_test_student_repo.png](%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Issues__thinknetica_test_student_repo.png)
+![%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%209dd475e5f4f8452f845ec63e69b52ab3/Issues__thinknetica_test_student_repo.png](https://user-images.githubusercontent.com/968537/104715110-2295ea00-5737-11eb-9b61-34832b969f03.png)
 
 Все задачи в рамках проекта объединены в тематические модули, которые на гитхабе представлены в виде milestones.
 
